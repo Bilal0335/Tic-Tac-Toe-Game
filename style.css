@@ -16,6 +16,10 @@ body {
     align-items: center;
 }
 
+main {
+    margin-bottom: 20px;
+}
+
 .game {
     height: 60vmin;
     width: 60vmin;
@@ -56,14 +60,22 @@ body {
     color: #ffff;
     cursor: pointer;
 }
-#msg{
+
+#msg {
     font-size: 8vmin;
     color: #ffffc7;
 }
 
-.msg-container{
-    height:30vmin;
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
 }
-.hide{
+
+.hide {
     display: none;
 }
